@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "9b707f2ab2b9cff3edc630dc4b49d8c6",
+    "packages": [
+        {
+            "name": "beberlei/lite-cqrs",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/beberlei/litecqrs-php.git",
+                "reference": "7784556edc7d1f101ad6639cb773a1a0a8feab44"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beberlei/litecqrs-php/zipball/7784556edc7d1f101ad6639cb773a1a0a8feab44",
+                "reference": "7784556edc7d1f101ad6639cb773a1a0a8feab44",
+                "shasum": ""
+            },
+            "require-dev": {
+                "doctrine/common": ">=2.0,<2.5",
+                "doctrine/couchdb": "dev-master",
+                "doctrine/mongodb": "dev-master",
+                "doctrine/orm": ">=2.0,<2.5",
+                "jms/serializer-bundle": "dev-master",
+                "swiftmailer/swiftmailer": "4.*",
+                "symfony/console": ">=2.0,<2.2",
+                "symfony/framework-bundle": ">=2.0,<2.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "LiteCQRS": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Simple Command-Query-Responsibility-Segregation library.",
+            "time": "2013-03-04 11:48:35"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "beberlei/lite-cqrs": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "beberlei/lite-cqrs": "dev-master"
+    }
+}
+
