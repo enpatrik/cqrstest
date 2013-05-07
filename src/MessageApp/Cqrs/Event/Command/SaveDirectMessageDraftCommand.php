@@ -12,7 +12,7 @@ namespace MessageApp\Cqrs\Event\Command;
 
 use LiteCQRS\DefaultCommand;
 
-class SaveDirectMessageCommand extends DefaultCommand
+class SaveDirectMessageDraftCommand extends DefaultCommand
 {
     /** @var int */
     public $id;

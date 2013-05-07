@@ -7,7 +7,7 @@ use LiteCQRS\DomainObjectChanged;
 
 class DirectMessageHandler
 {
-    public function onSaveDirectMessage(DomainObjectChanged $event)
+    public function onSaveDirectMessageDraft(DomainObjectChanged $event)
     {
         echo
               '====== Message Saved ======' . PHP_EOL
