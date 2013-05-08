@@ -2,7 +2,6 @@
 namespace MessageApp\Cqrs\Service;
 
 use LiteCQRS\Bus\EventMessageBus;
-use LiteCQRS\Bus\IdentityMap\SimpleIdentityMap;
 use LiteCQRS\DomainObjectChanged;
 use MessageApp\Cqrs\Command\SaveDirectMessageDraftCommand;
 use MessageApp\Cqrs\Command\SendDirectMessageCommand;

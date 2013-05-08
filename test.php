@@ -28,7 +28,7 @@ $messageBus  = new InMemoryEventMessageBus();
 $directMessageHandler = new DirectMessageHandler();
 $messageBus->register($directMessageHandler);
 
-// Monolog logger
+// Monolog logger (optional)
 $loggerProxyFactory = function($handler) {
     $logger = new Logger('Cqrs Command Logger');
     $logger->pushHandler(new StreamHandler('/var/tmp/mono.log', Logger::DEBUG));
@@ -36,7 +36,7 @@ $loggerProxyFactory = function($handler) {
 };
 
 // Create command bus
-$commandBus  = new DirectCommandBus(array(
+$commandBus = new DirectCommandBus(array(
     new EventMessageHandlerFactory($messageBus),
     $loggerProxyFactory
 ));
