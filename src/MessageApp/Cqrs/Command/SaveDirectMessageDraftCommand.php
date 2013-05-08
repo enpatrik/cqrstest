@@ -7,7 +7,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-namespace MessageApp\Cqrs\Event\Command;
+namespace MessageApp\Cqrs\Command;
 
 
 use LiteCQRS\DefaultCommand;

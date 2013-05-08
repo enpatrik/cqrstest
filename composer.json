@@ -1,6 +1,7 @@
 {
     "require": {
-        "beberlei/lite-cqrs": "dev-master"
+        "beberlei/lite-cqrs": "dev-master",
+        "monolog/monolog": "1.5.0"
     }
 }
 
